@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("img/fundo\ 1.jpg");
+}
+
+header {
+    background: linear-gradient(to right, rgb(3, 30, 82), rgb(24, 57, 119));
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section .bg-image {
+    margin: 10px ;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    width: 10px;
+}
+
+
+.bg-example {
+    width: 0px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    border: 0px solid #ffffff;
+    position: relative;
+    top: 50px
+}
+
+#bg-image {
+    background-image: url("img/5192983d9263eeb25574f00fdbf233de.jpg");
+    background-size:cover;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#bg-image1 {
+    background-image: url("img/messi.jpg");
+    background-size:cover;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    background-position: 8px ;
+    border-radius: 10px;
+}
+#bg-image2 {
+    background-image: url("img/siiii.png");
+    background-size:cover;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
